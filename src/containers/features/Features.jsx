@@ -24,10 +24,10 @@ const featuresData = [
 const Features = () => (
   <div className="gpt3__features" id="features">
     <div className="gpt3__features-heading section__margin">
-      <h1 className="gradient__text">The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.</h1>
+      <h1 className="gradient__text" data-aos="fade-right">The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.</h1>
       <p>Request Early Access to Get Started</p>
     </div>
-    <div className="gpt3__features-container section__margin">
+    <div className="gpt3__features-container section__margin" data-aos="fade-left">
       {featuresData.map((item, index) => (
         <Feature title={item.title} text={item.text} key={item.title + index} />
       ))}

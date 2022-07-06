@@ -13,18 +13,18 @@ const Brand = () => (
     </div> */}
     <div className="gpt3__brand section__padding">
       <div>
-        <img src={logo1} />
+        <img src={logo1} data-aos="flip-left"/>
       </div>
       <div style={{
         background: 'grey'
       }}>
-        <img src={logo2} />
+        <img src={logo2} data-aos="flip-left"/>
       </div>
       <div >
-        <img src={logo3} className="round-logo"/>
+        <img src={logo3} className="round-logo" data-aos="flip-left"/>
       </div>
       <div>
-        <img src={logo4} />
+        <img src={logo4} data-aos="flip-left"/>
       </div>
       
     </div>
