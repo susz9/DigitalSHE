@@ -10,7 +10,8 @@ const Navbar = () => {
     <div className="gpt3__navbar ">
       <div className="gpt3__navbar-links ">
         <div className="gpt3__navbar-links_logo">
-          <img src={logo} />
+        <a href="#home">
+          <img src={logo} /></a>
         </div>
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
@@ -21,7 +22,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <button type="button">Register</button>
+        <button type="button"><a href='https://docs.google.com/forms/d/e/1FAIpQLSfyuZJOhBWCl6RsQqvAhIO064CaRfyDSt9lDvxVozT19qdRLA/viewform' target="_blank">Register Now</a></button>
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu
